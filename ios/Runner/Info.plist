@@ -13,9 +13,9 @@
 		<key>CFBundleInfoDictionaryVersion</key>
 		<string>6.0</string>
 		<key>CFBundleName</key>
-		<string>OPJ Expert</string>
+		<string>My app</string>
 		<key>CFBundleDisplayName</key>
-		<string>opjapp</string>
+		<string>myapp</string>
 		<key>CFBundlePackageType</key>
 		<string>APPL</string>
 		<key>CFBundleShortVersionString</key>

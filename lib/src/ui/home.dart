@@ -10,8 +10,7 @@ class Home extends StatelessWidget {
         centerTitle: true,
         title: const Text('App title'),
       ),
-      body: Center(),
-      ),
+      body: const Center()
     );
   }
 }

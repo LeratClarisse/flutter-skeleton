@@ -1,6 +1,6 @@
-## OPJ Expert: Privacy policy
+## Privacy policy
 
-This policy concerns the OPJ Expert app for Android.
+This policy concerns the #APPNAME# app for Android.
 
 This is an open source Android app developed by Clarisse Pivasset-Lerat, 
 the source code is available on [GitHub](https://github.com/LeratClarisse/opj_app) under the BSD-3-Clause license.

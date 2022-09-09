@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.opjexpert.app">
+    package="com.myapp.app">
    <application
-        android:label="OPJ Expert"
+        android:label="My App"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity

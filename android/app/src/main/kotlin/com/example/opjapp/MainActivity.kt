@@ -1,4 +1,4 @@
-package com.opjexpert.app
+package com.myapp.app
 
 import io.flutter.embedding.android.FlutterActivity
 
