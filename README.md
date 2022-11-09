@@ -19,7 +19,7 @@ To use flutter_launcher_icons :
 - use flutter pub run flutter_launcher_icons:main
 
 
-If **Cannot not find minSdk** error :
+If <span style="color:red">**Cannot not find minSdk**</span> error :
 - in android/local.properties add :
   - flutter.minSdkVersion=16
   - flutter.targetSdkVersion=31
