@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 import 'home.dart';
 
 class App extends StatelessWidget {
@@ -6,6 +7,14 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(theme: ThemeData.dark(), home: const Home());
+    return ValueListenableBuilder<Box>(
+        valueListenable: Hive.box('settings').listenable(),
+        builder: (context, box, widget) {
+          bool darkMode = box.get('darkmode', defaultValue: false);
+          return MaterialApp(
+              themeMode: darkMode ? ThemeMode.dark : ThemeMode.light,
+              darkTheme: ThemeData.dark(),
+              home: const Home());
+        });
   }
 }
